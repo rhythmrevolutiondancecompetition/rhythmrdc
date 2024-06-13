@@ -1,0 +1,229 @@
+<html>
+    <head>
+        <title>FAQs</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oregano">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Parisienne">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pristina">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pompiere">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=MonteCarlo">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div id="header">
+            <center>
+                <a href="index.html"><button id="home" class="headerBtn">Home</button></a>
+                <a href="about.html"><button id="about" class="headerBtn">About</button></a>
+                <a href="team.html"><button id="team" class="headerBtn">Team</button></a>
+                <a href="faq.html"><button id="FAQ" class="headerBtn">FAQ</button></a>
+            </center>
+        </div>
+
+        <center>
+            <h1 id="title">Frequently Asked Questions</h1>
+        </center>
+
+        <!--The FAQs go here-->
+        <button class="accordion">When is the last day for submission?</button>
+        <div class="panel">
+            <p>The last day to submit your videos will be the 3rd of July 2024, and 8th July 2024 for late submissions, for which you also have to pay extra.</p>
+        </div>
+
+        <hr>
+
+        <button class="accordion">What is the judging criteria?</button>
+        <div class="panel">
+            <p>Dance Techniques, Expressions, Choreography and Performance Quality are the judging criteria for each and every dance presented either solo or team.
+            </p>
+        </div>
+
+        <hr>
+
+        <button class="accordion">What are the prizes for the competition?</button>
+        <div class="panel">
+            <p>The winner shall receive a proportion of 10% cash prize from the collected registration fees, a mystery gift alongside the winning international certificate from the competition. The second and third positions shall also receive winning international certificates. All the participants shall receive an international certificate for participation.
+            </p>
+        </div>
+
+        <hr>
+
+        <button class="accordion">What is the team member limit?</button>
+        <div class="panel">
+            <p>The competition is both for solo as well as team performers. There is no limit for team performers, however, we do not expect more than 15 performers dancing as a team.
+            </p>
+        </div>
+
+        <hr>
+
+        <button class="accordion">What kind of dance does it have to be? How long does the dance have to be?</button>
+        <div class="panel">
+            <p>The dance is not limited to a particular category and can range from classical to hip-hop. However, the competition does encourage indigenous or cultural dances. The dance has to be a minimum of a minute and maximum of 5 minutes long.
+            </p>
+        </div>
+
+        <hr>
+
+        <button class="accordion">Who can participate?</button>
+        <div class="panel">
+            <p>ANYONE and EVERYONE between the ages 5-19 who loves dancing and is willing to be a part of the competition is MORE THAN WELCOME to take part.
+            </p>
+        </div>
+
+        <hr>
+
+        <button class="accordion">Where does the competition take place</button>
+        <div class="panel">
+            <p>For national level round, the judges will judge the dance privately, and for the international and the continental round, the dances will be judged live on Youtube.
+            </p>
+        </div>
+
+        <hr>
+
+        <button class="accordion">Can I receive feedback on my performance?</button>
+        <div class="panel">
+            <p>There shall be feedbacks on the individual performances if they enter the International Round, however for the individual feedbacks on participants that did not reach the International Round, you can receive feedbacks by contacting narueuchiha1@gmail.com for where payment shall be necessary.
+            </p>
+        </div>
+
+        <hr>
+
+        <button class="accordion">How can I stay updated on competition news?</button>
+        <div class="panel">
+            <p>Please fill the form for the competition and we shall update you through your mail with the recent news of the competition.</p>
+        </div>
+
+        <hr>
+
+        <button class="accordion">What is the registration fee?</button>
+        <div class="panel">
+            <p>Regular - $5 <br> Late - $10</p>
+        </div>
+
+        <br><br>
+        
+        <form action="https://formsubmit.co/narueuchiha1@gmail.com" method="POST">
+            <div>
+            <input id="query" name="query" class="form-control" style="float: left; margin-left: 10px;" placeholder="enter your question">
+            <button id="submitBtn" type="submit" class="btn btn-info" style="float: right; margin-right: 780px; height: 40px;">Submit</button></div>
+        </form>
+        <br><br>
+
+
+    </body>
+    <style>
+        #header {
+            background-color: #000000;
+            width: 100%;
+            height: 10%;
+            margin-top: -8px;
+
+        }
+        .headerBtn {
+            margin-right: 40px;
+            margin-top: 15px;
+            background-color: #000000;
+            border-color: #000000;
+            border-width: 0px;
+            font-family: 'Times New Roman';
+            color: whitesmoke;
+            font-size: 17px;
+        }
+
+        .headerBtn:hover {
+            cursor: pointer;
+        }
+
+        #title {
+            font-family: 'Great Vibes';
+            font-size: 50px;
+        }
+
+        /* Style the buttons that are used to open and close the accordion panel */
+        .accordion {
+            background-color: #ffffff00;
+            color: #000000;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+            font-family: 'Times New Roman';
+            font-size: 20px;
+        }
+
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        .active, .accordion:hover {
+            background-color: #cccccc5c;
+        }
+
+        /* Style the accordion panel. Note: hidden by default */
+        .panel {
+            padding: 0 18px;
+            background-color: rgba(255, 255, 255, 0);
+            display: none;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+
+        .accordion:after {
+            content: '\02795'; /* Unicode character for "plus" sign (+) */
+            font-size: 13px;
+            color: #000000;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2796"; /* Unicode character for "minus" sign (-) */
+            color: #000000;
+        }
+
+        hr {
+            height: 2px;
+            border-width: 0px;
+            background-color: #230d22;
+            width: 98%;
+        }
+
+        p{
+            color: #1f1f1f;
+            font-family: 'Times New Roman';
+            font-size: 18px;
+        }
+        #query {
+            width: 30%;
+            height: 40px;
+        }
+
+        body {
+            background-image: url("slideshow_bg.jpeg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        
+    </style>
+
+    <script>
+
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            }
+            else {
+                panel.style.display = "block";
+            } });
+        }
+
+
+    </script>
+</html>
